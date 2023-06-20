@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-public interface UserDao {
+public interface UserDao{
 
     //查询用户
     @Select("select * from user")
